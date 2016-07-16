@@ -1,3 +1,14 @@
+var i;
+var content = "";
+
+obj = JSON.parse(inputstream);
+
+for(i=0;i < obj.boats.length; i++){
+  content+= "<div class='searchable-item card'>" + "<h3>" + obj.boats[i].name + "</h3>" + "<br>" + "<h4>" + obj.boats[i].something + "</h4>" + "<br>" + obj.boats[i].somethingelse + "<br>" + obj.boats[i].alsosomething + "<br>" + obj.boats[i].description + "</div>";
+}
+
+document.getElementById("content").innerHTML =  content
+
 // quick search regex
 var qsRegex;
 
