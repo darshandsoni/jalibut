@@ -1,10 +1,10 @@
 var i;
 var content = "";
 
-obj = JSON.parse(inputstream);
+obj = inputstream[0].boats;
 
-for(i=0;i < obj.boats.length; i++){
-  content+= "<div class='searchable-item card'>" + "<h3>" + obj.boats[i].name + "</h3>" + "<br>" + "<img src='" + obj.boats[i].image + "'>" + "<br>" + obj.boats[i].description + "</div>";
+for(i=0;i < obj.length; i++){
+  content+= "<div class='searchable-item card'>" + "<h3>" + obj[i].name + "</h3>" + "<br>" + "<img src='" + obj[i].image + "'>" + "<br>" + obj[i].description + "</div>";
 }
 
 document.getElementById("content").innerHTML =  content
