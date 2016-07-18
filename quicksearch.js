@@ -4,7 +4,11 @@ var content = "";
 obj = inputstream[0].boats;
 
 for(i=0;i < obj.length; i++){
-  content+= "<div class='searchable-item card'>" + "<h3>" + obj[i].name + "</h3>" + "<br>" + "<img src='" + obj[i].image + "'>" + "<br>" + obj[i].description + "</div>";
+  name = obj[i].name;
+  image = obj[i].image;
+  description = obj[i].description;
+
+  content+= "<div class='searchable-item card'>" + "<h3>" + name + "</h3>" + "<br>" + "<img src='" + image + "'>" + "<br>" + description + "</div>";
 }
 
 document.getElementById("content").innerHTML =  content
