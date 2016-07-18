@@ -2,6 +2,8 @@
 
 Jalibut is an open-source "search ahead" based directory that can be used to showcase any collection of entities. Try out the demo [here](https://darshandsoni.com/jalibut/).
 
+![](https://cloud.githubusercontent.com/assets/9295750/16912407/b9c3fa60-4c98-11e6-81bb-215f6ae056e0.gif)
+
 ## Why?
 
 Jalibut stems from the need to live search collections of entities. It could be anything: repositories, projects, cars, specimens... the list is endless. Jalibut provides a simple platform to elegantly showcase collections and live search them with nothing more than clean CSS, a JSON directory and some JavaScript to search it.
