@@ -56,4 +56,4 @@ content+= "<div class='searchable-item card'>" + "<h3>" + name + "</h3>" + "<br>
 
 ## Licence
 
-MIT.
+MIT. See [Licence file](https://github.com/darshandsoni/jalibut/blob/gh-pages/LICENSE) for details.
