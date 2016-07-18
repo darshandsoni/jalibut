@@ -20,9 +20,11 @@ All searchable data is stored as a JSON array in the file `objects.js`. Three ex
 "description": "A heavy ship, the traditional deep-sea dhow."
 ```
 
-You can add your own data by simply replacing the values for `name`, `image`, and `description` with your own. If you want to add more kinds of data, that's easy too: just add the new data pairs to `objects.js` and adjust the following html in `quicksearch.js` to your liking:
+You can add your own data by simply replacing the values for `name`, `image`, and `description` with your own. If you want to add more kinds of data, that's easy too: just add the new data pairs to `objects.js` and adjust the following html template in `quicksearch.js` to your liking:
 
-    content+= "<div class='searchable-item card'>" + "<h3>" + name + "</h3>" + "<br>" + "<img src='" + image + "'>" + "<br>" + description + "</div>";
+```javascript
+content+= "<div class='searchable-item card'>" + "<h3>" + name + "</h3>" + "<br>" + "<img src='" + image + "'>" + "<br>" + description + "</div>";
+```
 
 ## Credits
 
