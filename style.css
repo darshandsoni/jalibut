@@ -16,6 +16,7 @@ body{
 .jumbotron{
   background-image: linear-gradient(120deg, var(--accentcolour1), var(--accentcolour2));
   color: white;
+  padding: 20px;
 }
 
 /* ---- isotope ---- */
