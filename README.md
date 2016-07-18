@@ -29,7 +29,7 @@ content+= "<div class='searchable-item card'>" + "<h3>" + name + "</h3>" + "<br>
 ```
 
 ## Browser Support
-> Note many browsers not listed below may be compatible. Please submit a pull request to update the list.
+> Note: The list below is not exhaustive and serves only as a guideline. Please submit a pull request to update the list.
 
  | Browser | Support
 ---|---|---
