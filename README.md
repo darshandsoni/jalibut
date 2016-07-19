@@ -51,7 +51,7 @@ content+= "<div class='searchable-item card'>" + "<h3>" + name + "</h3>" + "<br>
 
 ## Credits
 
-* [Alarra](https://github.com/alrra/browser-logos) for providing browser logos.
+* [Alrra](https://github.com/alrra/browser-logos) for providing browser logos.
 * [Isotope](http://isotope.metafizzy.co/) for their highly configurable layouts.
 
 ## Licence
