@@ -45,7 +45,7 @@ content+= "<div class='searchable-item card'>" + "<h3>" + name + "</h3>" + "<br>
 ![](https://github.com/alrra/browser-logos/blob/master/opera/opera_24x24.png) | Opera (v30.0) | ![](https://img.shields.io/badge/-Not%20Compatible-red.svg)
 ![](https://github.com/alrra/browser-logos/blob/master/dillo/dillo_24x24.png) | Dillo (v3.0.3) | ![](https://img.shields.io/badge/-Not%20Compatible-red.svg)
 ![](https://github.com/alrra/browser-logos/blob/master/edge/edge_24x24.png) | Edge | ![](https://img.shields.io/badge/-Not%20Yet%20Tested-lightgrey.svg)
-![](https://github.com/alrra/browser-logos/blob/master/safari/safari_24x24.png) | Safari | ![](https://img.shields.io/badge/-Not%20Yet%20Tested-lightgrey.svg)
+![](https://github.com/alrra/browser-logos/blob/master/safari/safari_24x24.png) | Safari (iOS and MacOS | ![](https://img.shields.io/badge/-Compatible-green.svg)
 
 
 
