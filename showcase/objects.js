@@ -6,7 +6,7 @@ var inputstream = [{
     "link": "https://darshandsoni.com/jalibut"
   }, {
     "name": "Amber Pages",
-    "image": "screeenshots/amber-pages.png",
+    "image": "http://darshandsoni.com/jalibut/showcase/screenshots/amber-pages.png",
     "description": "An open-source beer directory to aid the weary traveller.",
     "link": "https://darshandsoni.com/amber-pages"
   }, {
