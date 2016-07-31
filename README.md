@@ -10,7 +10,9 @@ Jalibut stems from the need to live search collections of entities. It could be 
 
 ## Usage
 
-Jalibut is just a framework to help you quickly get started with showcasing a collection. Use it as is or build on it to make your content more accessible.
+Jalibut is just a framework to help you quickly get started with showcasing a collection. Use it as is, or build on it to make your content more accessible.
+
+You can see a gallery of projects that have used Jalibut on the [showcase](https://darshandsoni.com/jalibut/showcase/) page. If you would like to add your project to the list, just submit a PR with the relevant info.
 
 ## Data
 

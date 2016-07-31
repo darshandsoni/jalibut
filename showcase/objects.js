@@ -6,23 +6,28 @@ var inputstream = [{
     "link": "https://darshandsoni.com/jalibut"
   }, {
     "name": "Amber Pages",
-    "image": "http://darshandsoni.com/jalibut/showcase/screenshots/amber-pages.png",
+    "image": "screenshots/amber-pages.png",
     "description": "An open-source beer directory to aid the weary traveller.",
     "link": "https://darshandsoni.com/amber-pages"
   }, {
-    "name": "Jahazi",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Jahazi.jpg/300px-Jahazi.jpg",
-    "description": "A fishing or trading dhow with a broad hull similar to the Jalibut.",
-    "link": "https://github.com/darshandsoni/jalibut"
+    "name": "Asciidoctor Skins",
+    "image": "screenshots/asciidoctor-skins.png",
+    "description": "A collection of CSS stylesheets for Asciidoctor.",
+    "link": "https://darshandsoni.com/asciidoctor-skins/screenshots"
   }, {
-    "name": "Pattamar",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Boutre_indien.jpg/220px-Boutre_indien.jpg",
-    "description": "a type of Indian dhow.",
-    "link": "https://github.com/darshandsoni/jalibut"
+    "name": "Libreoffice Impress Templates",
+    "image": "screenshots/libreoffice-impress-templates.png",
+    "description": "A collection of well-designed, freely-licensed, usable templates for LibreOffice Impress.",
+    "link": "https://dohliam.github.io/libreoffice-impress-templates"
   }, {
-    "name": "Sambuk",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Dhau.jpg/220px-Dhau.jpg",
-    "description": "The largest type of dhow seen in the Persian Gulf today.",
-    "link": "https://github.com/darshandsoni/jalibut"
+    "name": "Postal Dhow",
+    "image": "screenshots/postal-dhow.png",
+    "description": "A live search for all post offices in Kenya.",
+    "link": "https://darshandsoni.com/postal-dhow"
+  }, {
+    "name": "Vanloos",
+    "image": "screenshots/vanloos.png",
+    "description": "Open Data powered Public Washrooms directory.",
+    "link": "https://darshandsoni.com/vanloos"
   }]
 }];
