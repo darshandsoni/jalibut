@@ -72,3 +72,8 @@ function sample_data() {
     text.value = data;
   }
 }
+
+function check_other() {
+  f = document.getElementsByName("format");
+  f[2].checked = true;
+}
