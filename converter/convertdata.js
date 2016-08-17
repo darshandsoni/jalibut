@@ -22,31 +22,42 @@ function format_text(sep,header) {
   }
   escape = new RegExp("\\\\" + sep, "g");
   unescape = new RegExp(placeholder, "g");
-  text = input.value.replace(escape, placeholder).replace(/\n*$/g, "\n");
+  text = input.value.replace(escape, placeholder).replace(/\n*$/, "");
   line_split = text.split("\n");
-  field1 = "name";
-  field2 = "image";
-  field3 = "description";
+  field_number = 1;
   start_line = 0;
+  header_names = [];
+  header_line = line_split[0].split(sep);
   if (header == true) {
     start_line = 1;
-    header_line = line_split[0].split(sep);
-    clean_varname = /[ ,\!@#\$%\^&\*\(\)\-\+=\|;:'"<>\.\?\/]+/g
-    field1 = header_line[0].replace(unescape, sep).replace(clean_varname, "_").replace(/_$/g, "");
-    field2 = header_line[1].replace(unescape, sep).replace(clean_varname, "_").replace(/_$/g, "");
-    field3 = header_line[2].replace(unescape, sep).replace(clean_varname, "_").replace(/_$/g, "");
+    clean_varname = /[ ,\!@#\$%\^&\*\(\)\-\+=\|;:'"<>\.\?\/]+/g;
+    for (i = 0; i < header_line.length; i++) {
+      varname = header_line[i].replace(unescape, sep).replace(clean_varname, "_").replace(/_$/g, "");
+      header_names.push(varname);
+    }
+  } else {
+    for (i = 1; i < header_line.length + 1; i++) {
+      varname = "field" + i;
+      header_names.push(varname);
+    }
   }
   result = "var inputstream = [{\n";
-  for (i = start_line; i < line_split.length -1; i++) {
+  for (i = start_line; i < line_split.length; i++) {
     col_split = line_split[i].split(sep);
-    name = col_split[0].replace(unescape, sep);
-    image = col_split[1].replace(unescape, sep);
-    description = col_split[2].replace(unescape, sep);
-    if (i == line_split.length - 2) {
-      result += '    "' + field1 + '": "' + name + '",\n    "' + field2 + '": "' + image + '",\n    "' + field3 + '": "' + description + '"\n'
-    } else {
-      result += '    "' + field1 + '": "' + name + '",\n    "' + field2 + '": "' + image + '",\n    "' + field3 + '": "' + description + '"\n  }, {\n'
+    result_line = '    "';
+    for (n = 0; n < col_split.length; n++) {
+      field_name = header_names[n];
+      field_data = col_split[n].replace(unescape, sep);
+      line_ending = '",\n    "';
+      if (n == col_split.length - 1) {
+        line_ending = '"\n  }, {\n';
+        if (i == line_split.length - 1) {
+          line_ending = '"\n';
+        }
+      }
+      result_line += field_name + '": "' + field_data + line_ending;
     }
+    result += result_line;
   }
   input.value = result + "}];\n";
 }
