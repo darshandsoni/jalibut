@@ -22,7 +22,7 @@ function format_text(sep,header) {
   }
   escape = new RegExp("\\\\" + sep, "g");
   unescape = new RegExp(placeholder, "g");
-  text = input.value.replace(escape, placeholder);
+  text = input.value.replace(escape, placeholder).replace(/\n*$/g, "\n");
   line_split = text.split("\n");
   field1 = "name";
   field2 = "image";
