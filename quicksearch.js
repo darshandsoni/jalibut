@@ -1,7 +1,7 @@
 var i;
 var content = "";
 
-obj = inputstream[0].boats;
+obj = inputstream;
 
 for(i=0;i < obj.length; i++){
   name = obj[i].name;

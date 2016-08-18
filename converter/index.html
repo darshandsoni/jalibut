@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jalibut Data Format Conversion Tool</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script type=text/javascript src="convertdata.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Jalibut Data Format Conversion Tool</h1>
+          <h2>Convert raw data into Jalibut JSON objects</h2>
+      </div>
+    </div>
+    <div class="container" style="align:center;">
+      <a href="https://github.com/darshandsoni/jalibut" class="btn btn-default btn-lg">View on GitHub</a>
+      <h3>Given a collection of data separated by tabs, commas or other symbols as input, this converter will return a JSON array suitable for use with <a href="https://github.com/darshandsoni/jalibut">Jalibut</a>.</h3>
+
+      <input type="radio" name="format" value="tsv" checked="checked">TSV <input type="radio" name="format" value="csv">CSV <input type="radio" name="format" value="other">Other... <input type="text" name="sep" size="5" placeholder="Separator" onclick="check_other()" onkeydown="check_other()"><br>
+      <input type="radio" name="header" value="y">Header row <input type="radio" name="header" value="n" checked="checked">No header row
+
+      <p>
+      <p>
+
+      <textarea id="data_input" rows=25 cols=85 accesskey="t" placeholder="Add text to format here"></textarea><br><br>
+
+      <button class="btn btn-default btn-lg" onclick="process_data()" accesskey="f">Format for Jalibut</button>
+      <button class="btn btn-default btn-me" onclick="sample_data()" accesskey="s">Use sample data</button>
+
+  </body>
+</html>

@@ -1,5 +1,4 @@
 var inputstream = [{
-  "boats": [{
     "name": "Dhow",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Dhow_znz.jpg/300px-Dhow_znz.jpg",
     "description": "A heavy ship, the traditional deep-sea dhow."
@@ -19,5 +18,4 @@ var inputstream = [{
     "name": "Sambuk",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Dhau.jpg/220px-Dhau.jpg",
     "description": "The largest type of dhow seen in the Persian Gulf today."
-  }]
 }];
