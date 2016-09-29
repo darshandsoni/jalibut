@@ -14,6 +14,11 @@ Jalibut is just a framework to help you quickly get started with showcasing a co
 
 You can see a gallery of projects that have used Jalibut on the [showcase](https://darshandsoni.com/jalibut/showcase/) page. If you would like to add your project to the list, just submit a PR with the relevant info.
 
+### Regex
+
+Jalibut supports regex right out of the box. Simply use regex in the search bar and it will filter. Note that because of live search, you may get nonsensical (or even no results) as you're typing but the correct result should render once you have finished the expression. 
+A basic example? Try typing in "pattamar|deep" and see what happens. 
+
 ## Data
 
 All searchable data is stored as a JSON array in the file `objects.js`. Three example attributes (`name`, `image`, and `description`) are provided to make it easy to get started:
