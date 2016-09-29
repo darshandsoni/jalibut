@@ -19,6 +19,8 @@ You can see a gallery of projects that have used Jalibut on the [showcase](https
 Jalibut supports regex right out of the box. Simply use regex in the search bar and it will filter. Note that because of live search, you may get nonsensical (or even no results) as you're typing but the correct result should render once you have finished the expression. 
 A basic example? Try typing in "pattamar|deep" and see what happens. 
 
+If you're not sure what regex is, it's worth having a read about it [here](https://en.wikipedia.org/wiki/Regular_expression). You can also test and learn about using regex on [Portable Regex](http://dohliam.github.io/regex/).
+
 ## Data
 
 All searchable data is stored as a JSON array in the file `objects.js`. Three example attributes (`name`, `image`, and `description`) are provided to make it easy to get started:
