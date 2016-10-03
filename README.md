@@ -36,6 +36,42 @@ You can add your own data by simply replacing the values for `name`, `image`, an
 ```javascript
 content+= "<div class='searchable-item card'>" + "<h3>" + name + "</h3>" + "<br>" + "<img src='" + image + "'>" + "<br>" + description + "</div>";
 ```
+### Importing
+
+You can import your data into Jalibut using the online [Jalibut Data Format Conversion Tool](https://darshandsoni.com/jalibut/converter/), which converts data in a variety of formats into Jalibut JSON objects. Just paste your data (separated by tabs, commas, or other separators) into the textbox and click on the _Format for Jalibut_ button. There is an option to pre-fill the data entry box with sample data to see how the converter works.
+
+The converter can auto-detect header rows in your data. Just select the _Header row_ radio button above the textbox. By default auto-detection is off, in which case rows are numerically labelled as a sequence of fields.
+
+For example, given the following tab-separated data:
+
+    name	image	description
+    Name	image.jpg	Description
+
+With the _Header row_ option, the converter will produce the following result:
+
+```json
+var inputstream = [{
+    "name": "Name",
+    "image": "image.jpg",
+    "description": "Description"
+}];
+```
+
+The same data (without the header row):
+
+    Name	image.jpg	Description
+
+With the _Header row_ option turned off, this will give the following result:
+
+```json
+var inputstream = [{
+    "field1": "Name",
+    "field2": "image.jpg",
+    "field3": "Description"
+}];
+```
+
+This JSON can be pasted directly into `objects.js` in your Jalibut folder. Note: If search is not working after replacing `objects.js`, make sure that you have updated the variable names in `quicksearch.js` to match the header names in your data (by default these are set to **name**, **image**, and **description**.)
 
 ## Browser Support
 > Note: The list below is not exhaustive and serves only as a guideline. Please submit a pull request to update the list.
