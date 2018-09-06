@@ -78,19 +78,19 @@ This JSON can be pasted directly into `objects.js` in your Jalibut folder. Note:
 
 | | Browser | Support
 |-| ------- | -------
-| | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/arora/arora_24x24.png) | Arora (v0.11.0) | ![](https://img.shields.io/badge/-Compatible-green.svg)
-| | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chromium/chromium_24x24.png) | Chromium (v65.0) | ![](https://img.shields.io/badge/-Compatible-green.svg)
-| | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_24x24.png) | Firefox (v61.0) | ![](https://img.shields.io/badge/-Compatible-green.svg)
-| | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_24x24.png) | Google Chrome (v69.0) | ![](https://img.shields.io/badge/-Compatible-green.svg)
-| | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/konqueror_4/konqueror_4_24x24.png) | Konqueror (v4.14.16+) | ![](https://img.shields.io/badge/-Compatible-green.svg)
-| | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/midori/midori_24x24.png) | Midori (v0.4.3) | ![](https://img.shields.io/badge/-Compatible-green.svg)
-| | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/qupzilla/qupzilla_24x24.png) | QupZilla (v1.6.0) | ![](https://img.shields.io/badge/-Compatible-green.svg)
-| | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/rekonq/rekonq_24x24.png) | rekonq (v2.4.2) | ![](https://img.shields.io/badge/-Compatible-green.svg)
-| | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/android/android_24x24.png) | Stock Android (v4.3.1) | ![](https://img.shields.io/badge/-Compatible-green.svg)
-| | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_24x24.png) | Opera (v30.0) | ![](https://img.shields.io/badge/-Not%20Compatible-red.svg)
-| | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/dillo/dillo_24x24.png) | Dillo (v3.0.3) | ![](https://img.shields.io/badge/-Not%20Compatible-red.svg)
-| | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_24x24.png) | Edge | ![](https://img.shields.io/badge/-Not%20Yet%20Tested-lightgrey.svg)
-| | ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_24x24.png) | Safari (MacOS and iOS) | ![](https://img.shields.io/badge/-Compatible-green.svg)
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/arora/arora_24x24.png) | Arora (v0.11.0) | ![](https://img.shields.io/badge/-Compatible-green.svg)
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chromium/chromium_24x24.png) | Chromium (v65.0) | ![](https://img.shields.io/badge/-Compatible-green.svg)
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_24x24.png) | Firefox (v61.0) | ![](https://img.shields.io/badge/-Compatible-green.svg)
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_24x24.png) | Google Chrome (v69.0) | ![](https://img.shields.io/badge/-Compatible-green.svg)
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/konqueror_4/konqueror_4_24x24.png) | Konqueror (v4.14.16+) | ![](https://img.shields.io/badge/-Compatible-green.svg)
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/midori/midori_24x24.png) | Midori (v0.4.3) | ![](https://img.shields.io/badge/-Compatible-green.svg)
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/qupzilla/qupzilla_24x24.png) | QupZilla (v1.6.0) | ![](https://img.shields.io/badge/-Compatible-green.svg)
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/rekonq/rekonq_24x24.png) | rekonq (v2.4.2) | ![](https://img.shields.io/badge/-Compatible-green.svg)
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/android/android_24x24.png) | Stock Android (v4.3.1) | ![](https://img.shields.io/badge/-Compatible-green.svg)
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_24x24.png) | Opera (v30.0) | ![](https://img.shields.io/badge/-Not%20Compatible-red.svg)
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/dillo/dillo_24x24.png) | Dillo (v3.0.3) | ![](https://img.shields.io/badge/-Not%20Compatible-red.svg)
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_24x24.png) | Edge | ![](https://img.shields.io/badge/-Not%20Yet%20Tested-lightgrey.svg)
+| ![](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_24x24.png) | Safari (MacOS and iOS) | ![](https://img.shields.io/badge/-Compatible-green.svg)
 
 ## Credits
 
